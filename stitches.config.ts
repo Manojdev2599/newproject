@@ -14,6 +14,7 @@ export const {
     colors: {
       hiContrast: 'hsl(206,10%,5%)',
       loContrast: 'white',
+      black100: 'black',
 
       gray100: 'hsl(206,22%,99%)',
       gray200: 'hsl(206,12%,97%)',
@@ -44,6 +45,11 @@ export const {
       4: '20px',
       5: '25px',
       6: '35px',
+      7:'173px',
+      8:'57px',
+      9:"230px",
+      10:"750px"
+
     },
     fontSizes: {
       1: '12px',
@@ -52,10 +58,14 @@ export const {
       4: '17px',
       5: '19px',
       6: '21px',
+      7: '32PX'
     },
     fonts: {
       system: 'system-ui',
     },
+    width:{
+      1:'1200px'
+    }
   },
   utils: {
     marginX: (value: Stitches.PropertyValue<'margin'>) => ({
@@ -76,7 +86,7 @@ export const {
     }),
   },
   media: {
-    bp1: '(min-width: 520px)',
-    bp2: '(min-width: 900px)',
+    bp1: '(max-width: 919px)',
+    bp2: '(min-width: 920px)',
   },
 })
